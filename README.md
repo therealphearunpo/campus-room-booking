@@ -1,28 +1,3 @@
 # Campus Room Booking
 
 A React and Vite application for finding campus rooms and managing bookings.
-
-## Project structure
-
-```text
-src/
-├── app/                  # Application shell and app-level configuration
-├── components/
-│   └── layout/           # Shared page layout components
-├── config/               # Campus schedules and application configuration
-├── pages/                # Route-level screens
-├── styles/               # Global styles and design tokens
-└── main.jsx              # Browser entry point
-```
-
-Add domain-specific code under `src/features` as booking, room, and
-authentication functionality is introduced. Shared, reusable UI elements belong
-under `src/components`.
-
-## Commands
-
-```bash
-npm run dev
-npm run lint
-npm run build
-```
